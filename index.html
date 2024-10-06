@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer with Voice Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>PDF Viewer with Voice Navigation</h1>
+    <input type="file" id="pdfUpload" accept=".pdf">
+    <button id="startVoiceNav">Start Voice Navigation</button>
+    <button id="stopVoiceNav">Stop Voice Navigation</button>
+
+    <canvas id="pdfCanvas"></canvas>
+
+    <p id="status"></p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

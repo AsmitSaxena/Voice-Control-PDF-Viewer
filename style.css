@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#pdfCanvas {
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: green;
+}
